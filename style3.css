@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* background-color: #F4F1DE; */
+    background-color: rgb(13, 0, 40);
+    color: #d3795a;
+    text-align: center;
+}
+h1{
+    /* color: #3D405B; */
+    color: #acb4f5;
+    text-decoration: underline;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.parent{
+    background-color: rgba(176, 144, 108, 0.776);;
+    /* background-color: #F2CC8F; */
+    height: 400px;
+    width: 900px;
+    color: yellow;
+    border-radius: 7px;
+    border: solid black;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    margin-top: 100px;
+}
+
+.one1{
+    background-color: #81B29A;
+    height: 200px;
+    width: 200px;
+    border-radius: 7px;
+    border: solid black;
+    text-align: center;
+    display: inline-block;
+    background-image: url("Images/puzzle_iamge.jpg");
+    background-size: cover;
+}
+
+
+.one2{
+    background-color: #81B29A;
+    height: 200px;
+    width: 200px;
+    border-radius: 7px;
+    border: solid black;
+    text-align: center;
+    display: inline-block;
+    background-image: url("Images/arcade_games.jpg");
+    background-size: cover;
+}
+
+.one3{
+    background-color: #81B29A;
+    height: 200px;
+    width: 200px;
+    border-radius: 7px;
+    border: solid black;
+    text-align: center;
+    display: inline-block;
+    background-image: url("Images/sportsLogo.jpg");
+    background-size: cover;
+}
+.one4{
+    background-color: #81B29A;
+    height: 200px;
+    width: 200px;
+    border-radius: 7px;
+    border: solid black;
+    text-align: center;
+    display: inline-block;
+    background-image: url("Images/Dice_image.jpg");
+    background-size: cover;
+}
+
+.one4 .img-hover-zoom{
+    height: 300px;
+    overflow: hidden;
+}
+
+.one4 .img-hover-zoom img {
+    transition: transform 0.5s ease;
+}
+
+.one4 .img-hover-zoom :hover img {
+    transform: scale(1.5);
+}
+.two1{
+    background-color: #81B29A;
+    height: 200px;
+    width: 200px;
+    border-radius: 7px;
+    border: solid black;
+    text-align: center;
+    display: inline-block;
+    background-image: url("Images/timing.jpg");
+    background-size: cover;
+}
+.two2{
+    background-color: #81B29A;
+    height: 200px;
+    width: 200px;
+    border-radius: 7px;
+    border: solid black;
+    text-align: center;
+    display: inline-block;
+    background-image: url("Images/dexterity.jpg");
+    background-size: cover;
+}
+.two3{
+    background-color: #81B29A;
+    height: 200px;
+    width: 200px;
+    border-radius: 7px;
+    border: solid black;
+    text-align: center;
+    display: inline-block;
+    background-image: url("Images/merging.jpg");
+    background-size: cover;
+}
+.two4{
+    background-color: #81B29A;
+    height: 200px;
+    width: 200px;
+    border-radius: 7px;
+    border: solid black;
+    text-align: center;
+    display: inline-block;
+    background-image: url("Images/cards.jpg");
+    background-size: cover;
+}
+p{
+    font-size: 25px;
+}
+a{
+    color: yellow;
+    text-decoration: none;
+}
+.one:hover{
+    background-color: #3D405B;
+}
+.two:hover{
+    background-color: #3D405B;
+}
