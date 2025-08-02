@@ -16,7 +16,7 @@ header {
     align-items: start;
     justify-content:center;
     color: rgb(245, 245, 190);
-    font-size: larger;
+    font-size: 10vh;
 }
 .games {
     height: 60vh;
@@ -54,4 +54,5 @@ header {
     margin: 20px;
     position:relative;
     z-index: 10;
+
 }
